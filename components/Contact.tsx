@@ -4,14 +4,14 @@ const Contact = () => {
   return (
     <div className="card">
       <div className="card-block">
-        <h2>Contact</h2>
+        <h2>contactTitle</h2>
         <form action="" className="reveal-content">
           <div className="form-group">
             <input
               type="email"
               className="form-control"
               id="email"
-              placeholder="Email"
+              placeholder="firstInputPlaceholderName"
             />
           </div>
           <div className="form-group">
@@ -19,18 +19,18 @@ const Contact = () => {
               type="text"
               className="form-control"
               id="subject"
-              placeholder="Subject"
+              placeholder="secondInputPlaceholderName"
             />
           </div>
           <div className="form-group">
             <textarea
               className="form-control"
-              placeholder="Enter your message"
+              placeholder="textareaPlaceholderName"
             ></textarea>
           </div>
           <div className="form-group">
             <button type="submit" className=" btn btn-primary">
-              Send message
+              buttonName
             </button>
           </div>
         </form>

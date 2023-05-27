@@ -5,31 +5,31 @@ const Projects = () => {
   return (
     <div className="card">
       <div className="card-block">
-        <h2>Projects</h2>
+        <h2>projectsTitle</h2>
         <div className="row">
           <div className="col-md-4">
             <h3 className="h5">
-              <a href="https://translate.google.ru/" target="_blank">
-                YOUR PROJECT NAME 1
+              <a href="firstProjectUrl" target="_blank">
+                firstProjectTitle
               </a>
             </h3>
-            <p>June 2017</p>
+            <p>firstProjectDate</p>
           </div>
           <div className="col-md-4">
-          <h3 className="h5">
-              <a href="https://translate.google.ru/" target="_blank">
-                YOUR PROJECT NAME 2
+            <h3 className="h5">
+              <a href="secondProjectUrl" target="_blank">
+                secondProjectTitle
               </a>
             </h3>
-            <p>March 2017</p>
+            <p>secondProjectDate</p>
           </div>
           <div className="col-md-4">
-          <h3 className="h5">
-              <a href="https://translate.google.ru/" target="_blank">
-                YOUR PROJECT NAME 3
+            <h3 className="h5">
+              <a href="thirdProjectUrl" target="_blank">
+                thirdProjectTitle
               </a>
             </h3>
-            <p>Jan 2017</p>
+            <p>thirdProjectDate</p>
           </div>
         </div>
       </div>

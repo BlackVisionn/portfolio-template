@@ -4,27 +4,27 @@ const Education = () => {
   return (
     <div className="card">
       <div className="card-block">
-        <h2>Education</h2>
+        <h2>educationTitle</h2>
         <div className="row">
           <div className="col-md-4">
             <div className="education-experience">
-              <small className="date">2015-2017</small>
-              <h3 className="h5 date-title">Design Master</h3>
-              <p>Chicago University</p>
+              <small className="date">firstEducationDates</small>
+              <h3 className="h5 date-title">firstEducationTitle</h3>
+              <p>firstEducationStudyPlace</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="education-experience">
-              <small className="date">2015-2017</small>
-              <h3 className="h5 date-title">Metrics Degree</h3>
-              <p>Ecole 87</p>
+              <small className="date">secondEducationDates</small>
+              <h3 className="h5 date-title">secondEducationTitle</h3>
+              <p>secondEducationStudyPlace</p>
             </div>
           </div>
           <div className="col-md-4">
             <div className="education-experience">
-              <small className="date">2015-2017</small>
-              <h3 className="h5 date-title">Motion Design Course</h3>
-              <p>Pascal’s Lee Studio</p>
+              <small className="date">thirdEducationDates</small>
+              <h3 className="h5 date-title">thirdEducationTitle</h3>
+              <p>thirdEducationStudyPlace</p>
             </div>
           </div>
         </div>

@@ -4,26 +4,26 @@ const Languages = () => {
   return (
     <div className="card">
       <div className="card-block">
-        <h2>Languages</h2>
+        <h2>languagesTitle</h2>
         <div className="row">
           <div className="col-md-4">
             <div className="language-experience">
               <h3 className="h5">
-                English <small>Bilingual</small>
+                firstLanguageName <small>firstLanguageLevel</small>
               </h3>
             </div>
           </div>
           <div className="col-md-4">
             <div className="language-experience">
               <h3 className="h5">
-                French <small>Fluent</small>
+                secondLanguageName <small>secondLanguageLevel</small>
               </h3>
             </div>
           </div>
           <div className="col-md-4">
             <div className="language-experience">
               <h3 className="h5">
-                Russian <small>Beginner</small>
+                thirdLanguageName <small>thirdLanguageLevel</small>
               </h3>
             </div>
           </div>
